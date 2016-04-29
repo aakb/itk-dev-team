@@ -1,0 +1,13 @@
+uuid: 8c875ea0-6834-45eb-b308-0038f1243b07
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
+id: node_promote_action
+label: 'Vis indhold på forsiden'
+type: node
+plugin: node_promote_action
+configuration: {  }

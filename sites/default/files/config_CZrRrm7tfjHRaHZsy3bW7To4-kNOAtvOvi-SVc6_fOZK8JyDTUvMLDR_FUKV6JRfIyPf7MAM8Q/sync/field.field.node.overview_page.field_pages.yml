@@ -1,0 +1,33 @@
+uuid: 906f0060-c86b-42d3-9ce9-c38c2b6bd3c0
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pages
+    - node.type.overview_page
+    - node.type.page
+    - node.type.project
+_core:
+  default_config_hash: KoDLOIkYamA4ayfzY7ou-qDhm9LFbIva82XTLWvgRbM
+id: node.overview_page.field_pages
+field_name: field_pages
+entity_type: node
+bundle: overview_page
+label: 'Related pages'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      overview_page: overview_page
+      project: project
+      page: page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: overview_page
+field_type: entity_reference

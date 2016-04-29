@@ -1,0 +1,24 @@
+uuid: c6a20600-a08c-4b09-b5f0-1a1c21fb4b17
+langcode: da
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - itkore
+_core:
+  default_config_hash: x16SpaqM4lHfKnzWLRhu9s-ByKOgPkjgmAExZ35eRaY
+id: itkore_login
+theme: itkore
+region: '-1'
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Log ind'
+  provider: user
+  label_display: visible
+  cache:
+    max_age: -1
+visibility: {  }

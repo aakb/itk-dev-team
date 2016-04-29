@@ -1,0 +1,20 @@
+uuid: 601ec399-2b12-4992-9cec-2911d5a222dd
+langcode: da
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: guC1MVntajdD5P6pCOScGOw16en_GNV4XfwQKhIs_Ek
+name: Side
+type: page
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

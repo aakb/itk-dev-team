@@ -1,0 +1,28 @@
+uuid: 5c6b9609-724b-4ba7-8f78-946f7bcc2432
+langcode: da
+status: false
+dependencies:
+  config:
+    - system.menu.admin
+  module:
+    - system
+  theme:
+    - itkore
+_core:
+  default_config_hash: PaKxrAzSL5rUIaWdODCTcWMET_3BG0cmHOHkpPwpN_k
+id: itkore_admin
+theme: itkore
+region: '-1'
+weight: 1
+provider: null
+plugin: 'system_menu_block:admin'
+settings:
+  id: 'system_menu_block:admin'
+  label: Administration
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  cache:
+    max_age: -1
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: ef63b7b3-4c26-4e46-a33d-43c7906420c1
+langcode: da
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
+id: node.search_index
+label: Søgeindex
+targetEntityType: node
+cache: true

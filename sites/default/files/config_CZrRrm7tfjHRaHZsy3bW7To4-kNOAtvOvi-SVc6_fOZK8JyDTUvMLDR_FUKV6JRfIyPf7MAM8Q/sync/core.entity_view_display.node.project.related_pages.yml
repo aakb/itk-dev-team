@@ -1,0 +1,46 @@
+uuid: 5331911a-e89d-47bf-b038-e24d5c6f9965
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.related_pages
+    - field.field.node.project.body
+    - field.field.node.project.field_instagram
+    - field.field.node.project.field_lead
+    - field.field.node.project.field_main_image
+    - field.field.node.project.field_pages
+    - field.field.node.project.field_related_page_image
+    - field.field.node.project.field_related_page_teaser
+    - image.style.related_page_image
+    - node.type.project
+  module:
+    - image
+    - user
+id: node.project.related_pages
+targetEntityType: node
+bundle: project
+mode: related_pages
+content:
+  field_related_page_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: related_page_image
+      image_link: content
+    third_party_settings: {  }
+    type: image
+  field_related_page_teaser:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  body: true
+  field_instagram: true
+  field_lead: true
+  field_main_image: true
+  field_pages: true
+  langcode: true
+  links: true

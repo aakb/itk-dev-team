@@ -1,0 +1,28 @@
+uuid: aa512b26-a764-4658-b3c7-dfb9947e24a9
+langcode: da
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - itkore
+_core:
+  default_config_hash: djkzb6uOQjWzfymBXDbUR91sLc8KB2iQ6rpl6q0YEE0
+id: itkore_tools
+theme: itkore
+region: '-1'
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Værktøjer
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  cache:
+    max_age: -1
+visibility: {  }

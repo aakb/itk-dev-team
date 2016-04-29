@@ -1,0 +1,24 @@
+uuid: 0e1167ce-0cd3-4f9a-893f-15810eea34db
+langcode: da
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - itkdevteam
+_core:
+  default_config_hash: x16SpaqM4lHfKnzWLRhu9s-ByKOgPkjgmAExZ35eRaY
+id: itkdevteam_login
+theme: itkdevteam
+region: '-1'
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Log ind'
+  provider: user
+  label_display: visible
+  cache:
+    max_age: -1
+visibility: {  }

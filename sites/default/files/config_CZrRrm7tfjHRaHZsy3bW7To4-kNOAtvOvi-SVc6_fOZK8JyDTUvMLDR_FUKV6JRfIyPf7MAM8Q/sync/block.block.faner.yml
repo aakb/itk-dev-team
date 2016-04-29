@@ -1,0 +1,22 @@
+uuid: 19eaf60c-2aa3-431f-88d1-2cb6f8231570
+langcode: da
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: LUCLTQuJ8WHXvdIV-h7C94eSSYCdqFbB5OVwDQ1aJJ4
+id: faner
+theme: seven
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Faner
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

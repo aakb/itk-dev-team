@@ -1,0 +1,24 @@
+uuid: e8450224-a3dc-44df-a13d-2449baa01067
+langcode: da
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - itkdevteam
+id: primaernavigation_2
+theme: itkdevteam
+region: hamburger
+weight: null
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Primær navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

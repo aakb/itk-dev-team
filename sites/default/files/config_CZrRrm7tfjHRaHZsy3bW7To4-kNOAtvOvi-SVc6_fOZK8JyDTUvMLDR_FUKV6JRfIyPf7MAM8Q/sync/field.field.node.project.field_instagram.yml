@@ -1,0 +1,21 @@
+uuid: d6c533fc-f24e-46f4-ab79-3535111001c4
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instagram
+    - node.type.project
+  module:
+    - itk_instagram_hashtag
+id: node.project.field_instagram
+field_name: field_instagram
+entity_type: node
+bundle: project
+label: Instagram
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_instagram_hashtag

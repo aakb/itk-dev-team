@@ -1,0 +1,24 @@
+uuid: 35299652-9ed6-4d15-bf18-200cb41d053d
+langcode: da
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - itkdevteam
+_core:
+  default_config_hash: WSO00_Vcbo3cewLvxL1RfThdBSf8rkNNJdR_ps_G2h0
+id: itkdevteam_messages
+theme: itkdevteam
+region: '-1'
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Statusmeddelelser
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }
